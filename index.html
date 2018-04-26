@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <title>Savings Calculator</title>
+		  <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+
+
+		 <h1>Ready to start saving?</h1>
+
+
+      <div class="main">
+        <form autocomplete="off">
+            <div class="input">
+                <p class="q">What is my goal?</p><br/>
+                <input type ="number" id="inputSavingsGoal" placeholder="SEK"/>
+            </div>
+            <div class="input">
+                <p class="q">How much can I save per month?</p><br/>
+                <input type ="number" id="inputSavingsReg" placeholder="SEK"/>
+            </div>
+            <div class="input">
+                <p class="q">How much do I already have?</p><br/>
+                <input type ="number" id="inputSavingsHave" placeholder="SEK"/>
+            </div>
+        </form>
+        <button class="calc" onclick="calculate();">calculate!</button>
+<div class="result">
+        <p id="goalDate"></p>
+        <p id="timeTake"></p>
+  </div>
+
+     </div>
+      <script src="budgetscript.js"></script>
+    </body>
+</html>
