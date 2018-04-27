@@ -1,55 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Actor|Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 body {
-	max-width: 500px;
-	width: 100%;
-	background-color: #77c9d4;
-	font-family: Julius, Sans-Serif;
-	color: #000000;
+	background-color: #f9f9f9;
+	font-style: "Julius";
 	margin: auto;
-}
-
-.main {
-	background-color: white;
-	width: 100%;
-	color: black;
-	padding: 10px 15px 15px 15px;
-}
-h1 {
-	text-align: center;
-	padding-top: 40px;
-}
-h2 {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.q {
-	margin-bottom: 0;
-	font-size: 20px;
-}
-.input {
-	padding-bottom: 25px;
-}
-
-.input input {
-	background-color: green;
-	appearance: none;
-	height: 20px;
-	font-size: 16px;
-}
-
-.calc {
-	width: 100px;
-	height: 40px;
-	margin-bottom: 30px;
-	border: 2px solid #f02d3a;
-	font-size: 18px;
-	text-align: center;
-}
-
-.timetake, .goalDate {
-	font-size: 20px;
-
+	max-width: 350px;
 }
