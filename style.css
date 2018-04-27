@@ -7,7 +7,22 @@ body {
 h1 {
 	background-color: #efefef;
 	padding: 2% 0% 2% 0%;
-	display: block;
 	text-align: center;
 	color: grey;
+}
+form:first-child {
+	padding-top: 3%;
+}
+form {
+	margin: auto;
+	text-align: center;
+}
+.input {
+	padding: 10px 0 10px 0;
+}
+.input p, input[type="number"] {
+	font-size: 20px;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
 }
