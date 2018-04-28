@@ -2,6 +2,7 @@
 <html>
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8" />
 		  <title>Savings Calculator</title>
 		  <link rel="stylesheet" type="text/css" href="style.css">
     </head>
@@ -12,29 +13,31 @@
 
 		 <h1>Savings Calculator</h1>
 
+     <div class="result">
+             <p id="goalDate"></p>
+             <p id="timeTake"></p>
+       </div>
 
       <div class="main">
         <form autocomplete="off">
             <div class="input">
-                <p class="q">What is my goal?</p><br/>
+                <p class="q">How much you want to save:</p>
                 <input type ="number" id="inputSavingsGoal" placeholder="SEK"/>
             </div>
             <div class="input">
-                <p class="q">How much can I save per month?</p><br/>
+                <p class="q">How much you can save per month:</p>
                 <input type ="number" id="inputSavingsReg" placeholder="SEK"/>
             </div>
             <div class="input">
-                <p class="q">How much do I already have?</p><br/>
+                <p class="q">How much you already have:</p>
                 <input type ="number" id="inputSavingsHave" placeholder="SEK"/>
             </div>
         </form>
         <button class="calc" onclick="calculate();">calculate!</button>
-<div class="result">
-        <p id="goalDate"></p>
-        <p id="timeTake"></p>
-  </div>
+
+
 
      </div>
-      <script src="budgetscript.js"></script>
+      <script src="script.js"></script>
     </body>
 </html>
