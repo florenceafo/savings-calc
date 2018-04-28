@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="UTF-8" />
-		  <title>Savings Calculator</title>
-		  <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Savings Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 
-    <body>
+  <body>
 
+    <div class="container">
+      <div class="containerWrap">
 
+      <h1>Savings Calculator</h1>
 
-		 <h1>Savings Calculator</h1>
-
-     <div class="result">
-             <p id="goalDate"></p>
-             <p id="timeTake"></p>
-       </div>
+      <div class="result">
+        <p id="goalDate"></p>
+        <p id="timeTake"></p>
+      </div>
 
       <div class="main">
+
         <form autocomplete="off">
-            <div class="input">
-                <p class="q">How much you want to save:</p>
-                <input type ="number" id="inputSavingsGoal" placeholder="SEK"/>
-            </div>
-            <div class="input">
-                <p class="q">How much you can save per month:</p>
-                <input type ="number" id="inputSavingsReg" placeholder="SEK"/>
-            </div>
-            <div class="input">
-                <p class="q">How much you already have:</p>
-                <input type ="number" id="inputSavingsHave" placeholder="SEK"/>
-            </div>
+
+          <div class="input">
+            <p class="q">How much you want to save:</p>
+            <input type ="number" id="inputSavingsGoal" placeholder="SEK"/>
+          </div>
+          <div class="input">
+            <p class="q">How much you can save per month:</p>
+            <input type ="number" id="inputSavingsReg" placeholder="SEK"/>
+          </div>
+          <div class="input">
+            <p class="q">How much you already have:</p>
+            <input type ="number" id="inputSavingsHave" placeholder="SEK"/>
+          </div>
+
         </form>
-        <button class="calc" onclick="calculate();">Calculate!</button>
-     </div>
+        <div class"buttonWrap">
+          <button class="calc" onclick="calculate();">Calculate!</button>
+        </div>
+      </div>
 
-<footer>This calculator was created by <a href="https://florenceafo.github.io">Florence</a>. You can view the source code <a href="https://github.com/florenceafo/savings-calc">here</a>.</footer>
+    <footer>
+      This calculator was created by <a href="https://florenceafo.github.io">Florence</a>. You can view the source code <a href="https://github.com/florenceafo/savings-calc">here</a>.
+    </footer>
 
-      <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script>
+
+    </div>
+</div>
+  </body>
 </html>
