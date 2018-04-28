@@ -1,19 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css?family=Assistant:300');
 
 body {
 	background-color: #f9f9f9;
 	margin: auto;
+	font-family: 'Assistant', sans-serif;
 }
-h1, .result, form {
+h1, .result p, form, footer {
 	text-align: center;
 }
 h1 {
+	position: relative;
 	background-color: #efefef;
 	padding: 2% 0% 2% 0%;
+	margin-top: 0;
 	color: grey;
 }
 .result {
 	height: 20px;
+	font-size: 25px;
 }
 form:first-child {
 	padding-top: 3%;
@@ -27,23 +31,45 @@ form {
 .input input {
 	width: 100px;
 }
-.input p, input[type="number"] {
+.input p {
 	font-size: 20px;
 }
 input[type="number"] {
   -moz-appearance: textfield;
-	border: 3px solid grey;
+	border: 1px solid #cf8e80;
 	border-radius: 5px;
+	font-size: 16px;
 }
-input[type="number"]:hover {
-  border-color: #a38d95;
+input[type="number"]:hover,
+input[type="number"]:focus {
+  border-width: 3px;
 }
 input[type="number"]:focus {
-  background-color: #a38d95;
+  background-color: #cf8e80;
+	color: #5e6168;
 }
 button {
 	display: block;
 	margin: 0 auto;
-	height: 25px;
+	height: 50px;
 	width: 250px;
+	color: #f9f9f9;
+	font-size: 35px;
+	border-radius: 5px;
+	border: 0;
+	margin-top: 5%;
+}
+button, footer {
+	background-color: #2aa8c1;
+}
+footer {
+	margin-top: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+footer, footer a {
+	color: #5e6168;
+}
+footer a:hover {
+	color: #f9f9f9;
 }
